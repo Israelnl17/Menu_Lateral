@@ -1,0 +1,79 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+  body {
+   background: linear-gradient(to bottom, #e60000,#fff,#000);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+ }
+  .sidebar {
+   background-color: #fff;
+   width: 300px;
+   height: 90vh;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   padding: 30px 20px;
+   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+ }
+  .logo {
+   text-align: center;
+   margin-bottom: 30px;
+ }
+  .logo img {
+   width: 120px;
+   height: auto;
+ }
+  .menu {
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 15px;
+ }
+  .menu a {
+   text-decoration: none;
+   color: #555;
+   background-color: #f1f1f1;
+   padding: 12px;
+   border-radius: 6px;
+   text-align: center;
+   transition: background-color 0.3s, color 0.3s;
+ }
+  .menu a:hover {
+   background-color: #ddd;
+   color: #4a00e0;
+ }
+  .perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+  .perfil img {
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   margin-bottom: 10px;
+   object-fit: cover;
+   background-color: #e0e0e0;
+   justify-content: center;
+   flex-direction: row;
+ }
+  .perfil button {
+   margin-top: 5px; 
+   padding: 8px 20px;
+   border: none;
+   border-radius: 6px;
+   background-color: #eee;
+   cursor: pointer;
+   transition: background-color 0.3s;
+ }
+  .perfil button:hover {
+   background-color: #ddd;
+ }
